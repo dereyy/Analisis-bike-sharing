@@ -39,5 +39,3 @@ streamlit run dashboard.py
 ```
 
 ---
-
-Cobalah salin dari sini dan lihat apakah formatnya sesuai di file README Anda. Semoga ini membantu! Jika ada hal lain yang perlu diperbaiki, beri tahu saya.
