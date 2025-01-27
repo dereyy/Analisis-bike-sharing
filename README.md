@@ -15,6 +15,7 @@ Proyek ini harus memenuhi beberapa kriteria sebagai berikut:
 3. Proses analisis harus dilakukan dalam Jupyter Notebook atau Colab Notebook yang rapi.
 4. Membuat dashboard interaktif menggunakan Streamlit yang dapat dijalankan di lokal.
 
+
 ---
 
 ## Instalasi
@@ -23,17 +24,20 @@ Proyek ini harus memenuhi beberapa kriteria sebagai berikut:
 
 ```bash
 git clone https://github.com/dereyy/Analisis-bike-sharing.git
+```
 
-
-
-## 2. Install dependencies:
+### 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
-
-
-## 3. Jalankan Aplikasi Streamlit
+### 3. Jalankan Aplikasi Streamlit:
 
 ```bash
 streamlit run dashboard.py
+```
+
+---
+
+Cobalah salin dari sini dan lihat apakah formatnya sesuai di file README Anda. Semoga ini membantu! Jika ada hal lain yang perlu diperbaiki, beri tahu saya.
