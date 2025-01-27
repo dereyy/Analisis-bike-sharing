@@ -16,7 +16,8 @@ def calculate_average_rentals(df, group_by_col):
     return df.groupby(group_by_col)['cnt'].mean().reset_index()
 
 # Layout Streamlit
-st.sidebar.image('logo.png', use_column_width=True)
+# Menghapus parameter yang menyebabkan error
+st.sidebar.image('logo.png')
 
 home = st.sidebar.button("Home")
 lihat_dataset = st.sidebar.button("Lihat Dataset")
@@ -178,8 +179,7 @@ elif page == "Tren Musiman":
     plt.xticks(rotation=45)
     st.pyplot(plt)
     st.markdown("""
-    **Kesimpulan:**  
+
+   **Kesimpulan:**  
     Berdasarkan gambar, jumlah penyewaan sepeda meningkat secara signifikan pada musim ketiga tahun 2011 (0-3) dan musim kedua tahun 2012 (1-2), mencapai puncaknya pada musim ketiga tahun 2012 (1-3). Ini menunjukkan bahwa ada pola musiman yang konsisten dalam penyewaan sepeda, dengan puncak penyewaan terjadi pada musim-musim tersebut.
     """)
-# Menjalankan Streamlit di lokal
-# Jalankan perintah ini di terminal: streamlit run app.py
