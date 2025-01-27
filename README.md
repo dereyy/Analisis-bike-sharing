@@ -26,14 +26,14 @@ git clone https://github.com/dereyy/Analisis-bike-sharing.git
 
 
 
-### 2. Install dependencies:
+## 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 
 
 
-### 3. Jalankan Aplikasi Streamlit
+## 3. Jalankan Aplikasi Streamlit
 
 ```bash
 streamlit run dashboard.py
