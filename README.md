@@ -24,10 +24,14 @@ Proyek ini harus memenuhi beberapa kriteria sebagai berikut:
 ```bash
 git clone https://github.com/dereyy/Analisis-bike-sharing.git
 
+
+
 ### 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+
 
 ### 3. Jalankan Aplikasi Streamlit
 
